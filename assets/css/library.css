@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    color: #333;
+}
+
+header {
+    background: #e91e63;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.library-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Lebar card kecil */
+    gap: 12px;
+    padding: 15px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    position: relative;
+    width: 100%;
+    max-width: 140px; /* ✅ Batasi ukuran maksimum */
+    margin: auto;
+}
+
+.card img {
+    width: 100%;
+    height: 200px; /* ✅ Tinggi tetap */
+    object-fit: cover; /* ✅ Potong proporsional */
+    display: block;
+}
+
+/* Tombol Delete */
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgba(233, 30, 99, 0.85);
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 4px 6px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.delete-btn:hover {
+    background: rgba(200, 20, 80, 0.95);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+    .library-container {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 8px;
+    }
+    .card img {
+        height: 14
+        0px; /* ✅ Lebih kecil di HP */
+    }
+}
