@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - JKT Card Downloader</title>
+    <link rel="stylesheet" href="assets/css/card.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="logo and bg/jkt48.jpg">
+</head>
+<body>
+
+    <header>
+         <div class="logo">
+        <img src="assets/img/jkt48.jpg" alt="JKT Card Downloader">
+        <h1>JKT Card Downloader</h1>
+        <!-- Menu Dropdown -->
+<div class="top-menu">
+    <button class="menu-toggle">☰</button>
+    <button class="logout-btn">Logout</button>
+    <div class="menu-dropdown">
+        <a href="library.html">📂 Library</a>
+        <a href="#about-section">ℹ️ About</a>
+        <a href="#callcenter-section">📞 Call Center</a>
+        <div class="social-icons">
+            <a href="https://www.tiktok.com/@akun_tiktok" target="_blank">🎵 TikTok</a>
+            <a href="https://www.instagram.com/akun_instagram" target="_blank">📸 Instagram</a>
+            <a href="https://wa.me/6281234567890" target="_blank">💬 WhatsApp</a>
+        </div>
+    </div>
+</div>
+
+</div>
+
+    </header>
+
+    <main>
+        <!-- Shani jkt48 -->
+        <div class="member">
+            <button class="member-btn" onclick="toggleCards(this)">Shani JKT48
+                <span class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <div class="cards-wrapper">
+                <button class="prev-btn">&#10094;</button>
+                <div class="cards-carousel">
+                    <div class="card-item">
+                        <img src="assets/img/shani.jkt48.jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/shani2 (1).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/shani2 (2).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/shani2 (3).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/shani2 (4).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/shani2 (5).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/shani2 (6).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/shani2 (10).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/shani2 (8).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/shani2 (9).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <button class="next-btn">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fiony Jkt48 -->
+        <div class="member">
+            <button class="member-btn" onclick="toggleCards(this)">Fiony JKT48
+                <span class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <div class="cards-wrapper">
+                <button class="prev-btn">&#10094;</button>
+                <div class="cards-carousel">
+                     <div class="card-item">
+                        <img src="assets/img/fiony (1).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/fiony (10).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/fiony (2).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/fiony (3).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/fiony (4).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/fiony (5).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/fiony (6).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/fiony (7).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/fiony (8).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                     <div class="card-item">
+                        <img src="assets/img/fiony (9).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <button class="next-btn">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Freya-->
+               <div class="member">
+            <button class="member-btn" onclick="toggleCards(this)">Freya JKT48
+                <span class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <div class="cards-wrapper">
+                <button class="prev-btn">&#10094;</button>
+                <div class="cards-carousel">
+                    <div class="card-item">
+                        <img src="assets/img/freya (1).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/freya (2).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/freya (3).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+
+                    <div class="card-item">
+                        <img src="assets/img/freya (4).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/freya (5).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+
+                    <div class="card-item">
+                        <img src="assets/img/freya (6).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+
+                    <div class="card-item">
+                        <img src="assets/img/freya (7).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+
+                    <div class="card-item">
+                        <img src="assets/img/freya (8).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+
+                    <div class="card-item">
+                        <img src="assets/img/freya (9).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+
+                    <div class="card-item">
+                        <img src="assets/img/freya (10).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <button class="next-btn">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <!--ella-->
+        <div class="member">
+            <button class="member-btn" onclick="toggleCards(this)">Ella JKT48
+                <span class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <div class="cards-wrapper">
+                <button class="prev-btn">&#10094;</button>
+                <div class="cards-carousel">
+                    <div class="card-item">
+                        <img src="assets/img/ella (1).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/ella (2).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/ella (3).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/ella (4).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/ella (5).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/ella (6).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/ella (7).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/ella (8).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/ella (9).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/ella (10).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <button class="next-btn">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <!--michie-->
+        <div class="member">
+            <button class="member-btn" onclick="toggleCards(this)">Michie JKT48
+                <span class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <div class="cards-wrapper">
+                <button class="prev-btn">&#10094;</button>
+                <div class="cards-carousel">
+                    <div class="card-item">
+                        <img src="assets/img/michie (1).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/michie (2).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/michie (3).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/michie (4).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/michie (5).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/michie (6).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/michie (7).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/michie (8).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/michie (9).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/michie (10).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <button class="next-btn">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <!--chatren-->
+        <div class="member">
+            <button class="member-btn" onclick="toggleCards(this)">Khatrina JKT48
+                <span class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <div class="cards-wrapper">
+                <button class="prev-btn">&#10094;</button>
+                <div class="cards-carousel">
+                    <div class="card-item">
+                        <img src="assets/img/katrin (1).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/katrin (2).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/katrin (3).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/katrin (4).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/katrin5.jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/katrin (6).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/katrin (7).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/katrin (8).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/katrin (9).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/katrin (10).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <button class="next-btn">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <!--muthe-->
+        <div class="member">
+            <button class="member-btn" onclick="toggleCards(this)">Muthe JKT48
+                <span class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <div class="cards-wrapper">
+                <button class="prev-btn">&#10094;</button>
+                <div class="cards-carousel">
+                    <div class="card-item">
+                        <img src="assets/img/mute (10).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/mute (9).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/mute (8).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/mute (7).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/mute (6).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/mute (5).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/mute (4).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/mute (3).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/mute (2).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/mute (1).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <button class="next-btn">&#10095;</button>
+                </div>
+            </div>
+        </div>
+        
+        <!--amanda-->
+        <div class="member">
+            <button class="member-btn" onclick="toggleCards(this)">Amanda JKT48
+                <span class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <div class="cards-wrapper">
+                <button class="prev-btn">&#10094;</button>
+                <div class="cards-carousel">
+                    <div class="card-item">
+                        <img src="assets/img/amanda (10).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/amanda (9).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/amanda (8).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/amanda (7).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/amanda (6).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/amanda (5).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/amanda (4).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/amanda (3).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/amanda (2).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/amanda (1).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <button class="next-btn">&#10095;</button>
+                </div>
+            </div>
+        </div>
+        
+        <!--flora-->
+        <div class="member">
+            <button class="member-btn" onclick="toggleCards(this)">Flora JKT48 (Gradtulation)
+                <span class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <div class="cards-wrapper">
+                <button class="prev-btn">&#10094;</button>
+                <div class="cards-carousel">
+                    <div class="card-item">
+                        <img src="assets/img/flora (10).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/flora (9).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/flora (8).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/flora (7).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/flora (6).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/flora (5).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/flora (4).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/flora (3).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/flora (2).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/img/flora (1).jpg" alt="Shani Card 1">
+                        <p>Downloader: <span class="download-count">0</span></p>
+                        <button onclick="downloadCard(this)">Download</button>
+                        <button onclick="saveToLibrary(this)">Save</button>
+                    </div>
+                    <button class="next-btn">&#10095;</button>
+                </div>
+            </div>
+        </div>
+    </main>
+<!-- Bagian Call Center -->
+<center><section id=<section id="about">
+    <div class="section-container">
+        <h2>ℹ️ Tentang Website</h2>
+        <p>
+            JKT Card Downloader adalah platform untuk mengoleksi, mengunduh, dan menyimpan 
+            foto card member JKT48. Desainnya responsif, sehingga bisa diakses dari PC, tablet, 
+            atau smartphone dengan tampilan optimal.
+        </p>
+    </div>
+</section>
+
+<!-- Bagian Call Center -->
+<section id="call-center">
+    <div class="section-container">
+        <h2>📞 Call Center</h2>
+        <p>Hubungi kami melalui WhatsApp: <a href="https://wa.me/6289516593554" target="_blank">0812-3456-7890</a></p>
+    </div>
+</section>
+
+    <script src="assets/js/card.js"></script>
+</body>
+</html>
